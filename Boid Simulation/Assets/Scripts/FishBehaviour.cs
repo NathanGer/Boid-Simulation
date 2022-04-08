@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class FishBehaviour : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public enum FishType
     {
-        
+        Blue,
+        Shark
     }
 
-    // Update is called once per frame
-    void Update()
+    public void InitializeFish()
     {
-        
+
     }
 }

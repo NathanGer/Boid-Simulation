@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class FishFactory : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [Header("Choix du nombre de poisson par banc")]
+    [Range(0, 100)]
+    [SerializeField] int NbrOfFish;
+
+    private void Awake()
     {
-        
+        CreateFishShoal();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void CreateFishShoal()
     {
-        
+
     }
 }
