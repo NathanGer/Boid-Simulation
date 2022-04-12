@@ -140,16 +140,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8539f13a9df9bd4f890d1e8b8d02d9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoovingFishSpeed: 1.8
-  RotationSpeed: 3
+  MoovingFishSpeed: 1.5
+  RotationSpeed: 0.46
   RandomTurnSensitivity: 3
   DetectionAngle: 145
   AlignmentDistance: 2
   ConvergenceDistance: 2
   RepulsionDistance: 5
   SharkRepulsionDistance: 1
-  BoundLimits: 4.5
+  BoundLimits: 3.12
   AlignementForceRatio: 0.6
   ConvergenceForceRatio: 0.87
   BoundRepulsionForceRatio: 10
   RepulsionForceRatio: 2
+  SharkRepulsionForceRatio: 1

@@ -297,5 +297,7 @@ public struct FishData
 public enum FishType
 {
     Blue,
+    Red,
+    Sardine,
     Shark
 }
